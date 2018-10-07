@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,100,400");
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.main {
+  position: relative;
+  background: url("../img/construction.jpeg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  margin-top: -24px;
+  margin-bottom: 0px;
+}
+
+.main-inner {
+  padding-top: 80px;
+}
+
+.btn {
+  margin-left: 10px;
+}
+
+.dark-overlay {
+  background: black;
+  opacity: 0.8;
+  height: 85vh;
+}
+
+.invalid-feedback {
+  font-size: 0.7rem;
+  color: red;
+}
